@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace Eventos
+{
+    /// <summary>
+    /// Lógica de interacción para FormularioVoluntario.xaml
+    /// </summary>
+    public partial class FormularioVoluntario : Window
+    {
+        MainWindow padre;
+        public FormularioVoluntario(MainWindow padre)
+        {
+            InitializeComponent();
+            this.padre = padre;
+        }
+
+        private void btnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnAñadir_Click(object sender, RoutedEventArgs e)
+        {
+            string nombre = txtNombre.Text;
+            string apellidos=txtApellidos.Text;
+            string DNI= txtDNI.Text;
+            string correo=txtCorreo.Text;
+            string telefono=txtTelefono.Text;
+
+         
+        }
+    }
+    public class voluntario
+    {
+        public string nombre;
+        public string apellidos;
+        public string DNI;
+        public string correo;
+        public string telefono;
+
+        public voluntario(string nombre, string apellidos, string dni, string correo, string telefono)
+        {
+            this.nombre = nombre;
+            this.apellidos = apellidos;
+            DNI = dni;
+            this.correo = correo;
+            this.telefono = telefono;
+
+        }
+    }
+
+    }
