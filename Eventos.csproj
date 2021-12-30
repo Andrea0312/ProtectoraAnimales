@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Animales.cs" />
+    <Compile Include="Animales.xaml.cs">
+      <DependentUpon>Animales.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AnimalsWindow.xaml.cs">
       <DependentUpon>AnimalsWindow.xaml</DependentUpon>
     </Compile>
@@ -75,6 +79,10 @@
     <Compile Include="Voluntarios.xaml.cs">
       <DependentUpon>Voluntarios.xaml</DependentUpon>
     </Compile>
+    <Page Include="Animales.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AnimalsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -175,9 +183,6 @@
     <Resource Include="imagenesCarusel\1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="contacto.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="imagenes\flechaIzq.png" />
   </ItemGroup>
   <ItemGroup>
@@ -188,6 +193,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="imagenesCarusel\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesVoluntarios\1.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesVoluntarios\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesSocios\1.2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesSocios\1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

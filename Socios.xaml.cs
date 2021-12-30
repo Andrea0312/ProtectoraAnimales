@@ -38,10 +38,15 @@ namespace Eventos
 
             foreach (XmlNode node in doc.DocumentElement.ChildNodes)
             {
-                var nuevoSocio = new Socios(" ", " ", " ");
+                var nuevoSocio = new Socios(" ", " ", " "," ", " ", " ", " ");
                 nuevoSocio.Nombre = node.Attributes["Nombre"].Value;
                 nuevoSocio.Apellidos = node.Attributes["Apellidos"].Value;
                 nuevoSocio.DNI = node.Attributes["DNI"].Value;
+                nuevoSocio.DireccionCorreo = node.Attributes["DireccionCorreo"].Value;
+                nuevoSocio.Telefono = node.Attributes["Telefono"].Value;
+                nuevoSocio.DatosBancarios = node.Attributes["DatosBancarios"].Value;
+                nuevoSocio.FormaPago = node.Attributes["FormaPago"].Value;
+                nuevoSocio.Caratula = new Uri(node.Attributes["Caratula"].Value, UriKind.Relative);
 
                 listadoS.Add(nuevoSocio);
             }

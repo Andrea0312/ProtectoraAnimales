@@ -67,6 +67,21 @@ namespace Eventos
         {
             spDinamico.Content = new Voluntarios();
         }
+
+        private void mostrar(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void mostrarAnimales(object sender, MouseButtonEventArgs e)
+        {
+            spDinamico.Content = new Animales();
+        }
+
+        private void mInicio(object sender, MouseButtonEventArgs e)
+        {
+            spDinamico.Content = new Inicio();
+        }
     }
    
 

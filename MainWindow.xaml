@@ -26,11 +26,11 @@
         </Grid.ColumnDefinitions>
 
         <Image x:Name="imgLogo" RenderTransformOrigin="-0.182,-0.102" Source="imagenes/logo2.png" Grid.Row="1"/>
-        <TextBox x:Name="txtUsuario" Grid.Column="3" Margin="25,46,25,16" Grid.Row="1" TextWrapping="Wrap" Text="Inicio sesión:" Background="{x:Null}" BorderBrush="#FFF4F2CB" FontSize="14" IsEnabled="False" FontWeight="Bold"/>
+        <TextBox x:Name="txtUsuario" Grid.Column="3" Margin="10,32,10,30" Grid.Row="1" TextWrapping="Wrap" Text="Inicio sesión:" Background="{x:Null}" BorderBrush="#FFF4F2CB" FontSize="14" IsEnabled="False" FontWeight="Bold"/>
         <Label x:Name="lblFrasePrincipal" Content="PROTECTORA JUNI" Grid.Column="2" Margin="15,10,10,30" Grid.Row="1" FontFamily="Ink Free" FontSize="30" FontWeight="Bold"/>
         <Menu x:Name="mPrincipal" Margin="0,36,0,39" Grid.Row="2" Cursor="Hand" TabIndex="1" FontSize="16" Background="{x:Null}">
-            <ListBoxItem x:Name="mnPrincipal" Content="Menu principal"  Background="#FF9CC8E6" Width="141" FontWeight="Bold" Margin="0" Selected="mnPrincipal_Selected" FontSize="14" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
-            <ListBoxItem x:Name="mnAnimales" Content="Animales" Background="#FF9CC8E6" Width="141" FontWeight="Bold" FontSize="14" Height="50" HorizontalContentAlignment="Center"/>
+            <ListBoxItem x:Name="mnPrincipal" Content="Menu principal"  Background="#FF9CC8E6" Width="141" FontWeight="Bold" Margin="0" Selected="mnPrincipal_Selected" FontSize="14" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" MouseDoubleClick="mInicio"/>
+            <ListBoxItem x:Name="mnAnimales" Content="Animales" Background="#FF9CC8E6" Width="141" FontWeight="Bold" FontSize="14" Height="50" HorizontalContentAlignment="Center" MouseDoubleClick="mostrarAnimales"/>
             <ListBoxItem x:Name="mnVoluntarios" Content="Voluntarios"  Background="#FF9CC8E6" Width="141" FontWeight="Bold" FontSize="14" Height="50" HorizontalContentAlignment="Center" MouseDoubleClick="mostrarVoluntarios"/>
             <ListBoxItem x:Name="mnSocios" Content="Socios" Background="#FF9CC8E6" Width="141" FontWeight="Bold" MouseDoubleClick="monstrarSocios" FontSize="14" Height="50" HorizontalContentAlignment="Center"/>
             <ListBoxItem x:Name="mnContacto" Content="Contacto" Background="#FF9CC8E6" Width="140" RenderTransformOrigin="0.5,0.5" FontWeight="Bold" FontSize="14" Height="50" HorizontalContentAlignment="Center">

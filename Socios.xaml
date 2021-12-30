@@ -24,7 +24,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <ListBox x:Name="lstListaSocios" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,10" ItemsSource="{Binding}">
+            <ListBox x:Name="lstListaSocios" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,10" ItemsSource="{Binding}" Background="#FF95B6BD">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -34,7 +34,20 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel x:Name="spDetallesSocios" Orientation="Vertical" Margin="55,65,80,135"/>
         </Grid>
+        <StackPanel x:Name="spDetallesSocios" Orientation="Vertical" Margin="10" Grid.Column="1" Grid.Row="1">
+            <Label x:Name="lblNombre" FontWeight="Bold" FontSize="20" Height="35" Content="{Binding SelectedItem.Nombre, ElementName=lstListaSocios}"/>
+            <Image x:Name="imgCaratula" Height="120" Margin="5,5,184,5" Stretch="Fill" Source="{Binding ElementName=lstListaSocios, Path=SelectedItem.Caratula}"/>
+            <Label FontWeight="Bold">DNI:</Label>
+            <Label x:Name="lblDNI" Content="{Binding ElementName=lstListaSocios,Path=SelectedItem.DNI}"/>
+            <Label FontWeight="Bold">Dirección de correo:</Label>
+            <Label x:Name="lblCorreo" Content="{Binding ElementName=lstListaSocios,Path=SelectedItem.DireccionCorreo}"/>
+            <Label FontWeight="Bold">Teléfono:</Label>
+            <Label x:Name="lblTelefono" Content="{Binding ElementName=lstListaSocios,Path=SelectedItem.Telefono}"/>
+            <Label FontWeight="Bold">Cuenta Bancaria:</Label>
+            <Label x:Name="lblDatosB" Content="{Binding ElementName=lstListaSocios,Path=SelectedItem.DatosBancarios}"/>
+            <Label FontWeight="Bold">Forma de Pago:</Label>
+            <Label x:Name="lblPago" Content="{Binding ElementName=lstListaSocios,Path=SelectedItem.FormaPago}"/>
+        </StackPanel>
     </Grid>
 </Page>

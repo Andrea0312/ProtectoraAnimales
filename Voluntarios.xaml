@@ -24,7 +24,7 @@
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <ListBox x:Name="lstListaVoluntarios" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,10" ItemsSource="{Binding}">
+            <ListBox x:Name="lstListaVoluntarios" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,50" ItemsSource="{Binding}" Background="#FF95B6BD">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -34,7 +34,18 @@
                     </DataTemplate>
                 </ListBox.ItemTemplate>
             </ListBox>
-            <StackPanel x:Name="spDetallesVoluntarios" Orientation="Vertical" Margin="55,65,80,135"/>
         </Grid>
+        <StackPanel x:Name="spDetallesVoluntarios" Orientation="Vertical" Margin="21,10,10,10" Grid.Column="1" Grid.Row="1">
+            <Label x:Name="lblNombre" FontWeight="Bold" FontSize="20" Height="35" Content="{Binding SelectedItem.Nombre, ElementName=lstListaVoluntarios}"/>
+            <Image x:Name="imgCaratula" Height="120" Margin="5,5,184,5" Stretch="Fill" Source="{Binding ElementName=lstListaVoluntarios, Path=SelectedItem.Caratula}"/>
+            <Label FontWeight="Bold">DNI:</Label>
+            <Label x:Name="lblDNI" Content="{Binding ElementName=lstListaVoluntarios,Path=SelectedItem.DNI}"/>
+            <Label FontWeight="Bold">Dirección de correo:</Label>
+            <Label x:Name="lblCorreo" Content="{Binding ElementName=lstListaVoluntarios,Path=SelectedItem.DireccionCorreo}"/>
+            <Label FontWeight="Bold">Teléfono:</Label>
+            <Label x:Name="lblTelefono" Content="{Binding ElementName=lstListaVoluntarios,Path=SelectedItem.Telefono}"/>
+            <Label FontWeight="Bold">Horario Disponible:</Label>
+            <Label x:Name="lblHorario" Content="{Binding ElementName=lstListaVoluntarios,Path=SelectedItem.HorasDisponibles}"/>
+        </StackPanel>
     </Grid>
 </Page>

@@ -40,10 +40,14 @@ namespace Eventos
 
             foreach (XmlNode node in doc.DocumentElement.ChildNodes)
             {
-                var nuevoVoluntario = new Voluntarios(" ", " ", " ");
+                var nuevoVoluntario = new Voluntarios(" ", " ", " "," ", " ", " ");
                 nuevoVoluntario.Nombre = node.Attributes["Nombre"].Value;
                 nuevoVoluntario.Apellidos = node.Attributes["Apellidos"].Value;
                 nuevoVoluntario.DNI = node.Attributes["DNI"].Value;
+                nuevoVoluntario.DireccionCorreo = node.Attributes["DireccionCorreo"].Value;
+                nuevoVoluntario.Telefono = node.Attributes["Telefono"].Value;
+                nuevoVoluntario.HorasDisponible = node.Attributes["HorasDisponible"].Value;
+                nuevoVoluntario.Caratula = new Uri(node.Attributes["Caratula"].Value, UriKind.Relative);
 
                 listadoV.Add(nuevoVoluntario);
             }
