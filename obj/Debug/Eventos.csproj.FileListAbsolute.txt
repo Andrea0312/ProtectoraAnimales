@@ -1,0 +1,172 @@
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\App.g.cs
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\Carmen.Lacave\source\repos\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\Carmen.Lacave\source\repos\Eventos\bin\Debug\Eventos.exe
+C:\Users\Carmen.Lacave\source\repos\Eventos\bin\Debug\Eventos.pdb
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\MainWindow.baml
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.exe
+C:\Users\Carmen.Lacave\source\repos\Eventos\obj\Debug\Eventos.pdb
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\bin\Debug\Eventos.exe
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\bin\Debug\Eventos.pdb
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\App.g.cs
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\MainWindow.baml
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.exe
+C:\Users\Carmen.Lacave\Universidad de Castilla-La Mancha\Investigación-Docencia Carmen y Ana - 21-22-WPF\S2-EVENTOS\S2-Eventos-Carmen\Eventos\obj\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\bin\Debug\Eventos.exe.config
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\bin\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\bin\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\MainWindow.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\App.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\MainWindow.baml
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.g.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10\Eventos\obj\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.exe.config
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\MainWindow.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\App.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\MainWindow.baml
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.g.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.exe.config
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\bin\Debug\Eventos.pdb
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.AssemblyReference.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\MainWindow.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\App.g.cs
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\MainWindow.baml
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.g.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.exe
+C:\TRABAJO\MATERIALES PASO A NET-IPO1\21-22\S2-EVENTOS\2-FINAL-VERSION DESPUES REDISEÑO CARMEN\S2-Eventos-CarmenAna-30-10-SOLO GUI\Eventos\obj\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\App.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\MainWindow.baml
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\bin\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\App.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\MainWindow.baml
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Principal.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Practicas\Practica 2\S2-Eventos-GUI\Eventos\obj\Debug\Principal.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\VentanaInicioSesion.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\App.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.exe
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.pdb
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\MainWindow.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\VentanaInicioSesion.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\bin\Debug\Eventos.exe
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\bin\Debug\Eventos.pdb
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\bin\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\bin\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\VentanaInicioSesion.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\App.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\MainWindow.baml
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\VentanaInicioSesion.baml
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.exe
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\Eventos.pdb
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\AnimalsWindow.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\AnimalsWindow.baml
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\FormularioVoluntario.g.cs
+C:\Users\loren\Desktop\UNI\3º Curso\1º Cuatri\IPO\Laboratorio\Proyecto final\Eventos\obj\Debug\FormularioVoluntario.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\bin\Debug\Eventos.exe.config
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\bin\Debug\Eventos.exe
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\bin\Debug\Eventos.pdb
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.csprojAssemblyReference.cache
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\AnimalsWindow.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\FormularioVoluntario.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\MainWindow.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\VentanaInicioSesion.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\App.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos_MarkupCompile.cache
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos_MarkupCompile.lref
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\AnimalsWindow.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\FormularioVoluntario.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\MainWindow.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\VentanaInicioSesion.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.g.resources
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.Properties.Resources.resources
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.csproj.GenerateResource.cache
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.exe
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Eventos.pdb
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Socios.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Socios.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Inicio.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Inicio.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Voluntarios.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Voluntarios.baml
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Animales.g.cs
+C:\Users\tara9\OneDrive - Universidad de Castilla-La Mancha\4ºCURSO\IPO1\Laboratorio\Eventos\27-12\Eventos\obj\Debug\Animales.baml
