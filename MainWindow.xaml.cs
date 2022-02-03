@@ -22,65 +22,43 @@ namespace Eventos
     public partial class MainWindow : Window
     {
         string nombre;
+        VentanaInicioSesion padre;
        
 
-        public MainWindow()
+        public MainWindow(VentanaInicioSesion padre)
         {
             InitializeComponent();
-            spDinamico.Content = new Inicio();
-            VentanaInicioSesion loggin = new VentanaInicioSesion(this);
-            loggin.ShowDialog();
-            nombre = loggin.txtUsuario.Text + " " + DateTime.Now.ToString();
+            this.padre = padre;
+            nombre = padre.txtUsuario.Text + " " + DateTime.Now.ToString();
             txtUsuario.Text = nombre;
            
 
         }
-       
 
-        private void mnAnimales_DoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            AnimalsWindow ventana1 = new AnimalsWindow(this);
-            ventana1.ShowDialog();
-        }
-     
-        
-
-        private void btnAñadirVoluntario_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        
-
-        private void monstrarSocios(object sender, MouseButtonEventArgs e)
-        {
-            spDinamico.Content = new Socios();
-            
-        }
-
-        private void mnPrincipal_Selected(object sender, RoutedEventArgs e)
+        private void mnPrincipal_Click(object sender, RoutedEventArgs e)
         {
 
+            spDinamico.Content = new Inicio();
         }
 
-        private void mostrarVoluntarios(object sender, MouseButtonEventArgs e)
-        {
-            spDinamico.Content = new Voluntarios();
-        }
-
-        private void mostrar(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void mostrarAnimales(object sender, MouseButtonEventArgs e)
+        private void mnAnimales_Click(object sender, RoutedEventArgs e)
         {
             spDinamico.Content = new Animales();
         }
 
-        private void mInicio(object sender, MouseButtonEventArgs e)
+        private void mnVoluntarios_Click(object sender, RoutedEventArgs e)
         {
-            spDinamico.Content = new Inicio();
+            spDinamico.Content = new Voluntarios();
+        }
+
+        private void mnSocios_Click(object sender, RoutedEventArgs e)
+        {
+            spDinamico.Content = new Socios();
+        }
+
+        private void mnContacto_Click(object sender, RoutedEventArgs e)
+        {
+            spDinamico.Content = new Contacto();
         }
     }
    

@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Eventos"
         mc:Ignorable="d"
-        Title="FormularioVoluntario" Height="450" Width="800">
+        Title="FormularioVoluntario" Height="450" Width="700" Background="#FFCFE4F0">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="400" Margin="0,10,0,0" VerticalAlignment="Top" Width="784">
+        <Grid HorizontalAlignment="Left" Height="400" Margin="0,10,0,0" VerticalAlignment="Top" Width="682">
             <Grid.RowDefinitions>
                 <RowDefinition Height="48*"/>
                 <RowDefinition Height="50*"/>
@@ -18,21 +18,26 @@
                 <RowDefinition Height="98*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="233*"/>
-                <ColumnDefinition Width="551*"/>
+                <ColumnDefinition Width="203*"/>
+                <ColumnDefinition Width="227*"/>
+                <ColumnDefinition Width="125*"/>
+                <ColumnDefinition Width="127*"/>
             </Grid.ColumnDefinitions>
-            <Label x:Name="lblNombre" Content="NOMBRE:" Margin="67,6,47.8,9.6" Grid.Row="1" FontWeight="Bold" FontSize="18"/>
-            <Label x:Name="lblApellidos" Content="APELLIDOS:" Margin="67,6.4,47.8,9.2" Grid.Row="2" FontWeight="Bold" FontSize="18"/>
-            <Label x:Name="lblDNI" Content="DNI:" Margin="67,9.8,47.8,7.4" Grid.Row="3" FontWeight="Bold" FontSize="18"/>
-            <Label x:Name="lblCorreo" Content="CORREO:" Margin="67,9.6,47.8,7.6" Grid.Row="4" FontWeight="Bold" FontSize="18"/>
-            <Label x:Name="lblTelefono" Content="TELEFONO:" Margin="67,8.4,47.8,10.4" Grid.Row="5" FontWeight="Bold" FontSize="18"/>
-            <TextBox x:Name="txtNombre" Grid.Column="1" Margin="26.2,10,30,9.6" Grid.Row="1" TextWrapping="Wrap"/>
-            <TextBox x:Name="txtApellidos" Grid.Column="1" Margin="26.2,9.4,30,10.2" Grid.Row="2" TextWrapping="Wrap"/>
-            <TextBox x:Name="txtDNI" Grid.Column="1" Margin="26.2,10.8,30,10.4" Grid.Row="3" TextWrapping="Wrap"/>
-            <TextBox x:Name="txtCorreo" Grid.Column="1" Margin="26.2,10.6,30,10.6" Grid.Row="4" TextWrapping="Wrap"/>
-            <TextBox x:Name="txtTelefono" Grid.Column="1" Margin="26.2,12.4,30,10.4" Grid.Row="5" TextWrapping="Wrap"/>
-            <Button x:Name="btnAñadir" Content="Añadir" Grid.Column="1" HorizontalAlignment="Left" Margin="26.2,27.6,0,0" Grid.Row="6" VerticalAlignment="Top" Width="191" Height="44" Click="btnAñadir_Click"/>
-            <Button x:Name="btnCancelar" Content="Cancelar" Grid.Column="1" HorizontalAlignment="Left" Margin="330.2,27.6,0,0" Grid.Row="6" VerticalAlignment="Top" Width="191" Height="44" Click="btnCancelar_Click"/>
+            <Label x:Name="lblNombre" Content="Nombre:" Margin="10,4,10,10" FontWeight="Bold" FontSize="14" Background="#FFB2D0F5" FontFamily="Segoe UI Black"/>
+            <Label x:Name="lblApellidos" Content="Apellidos:" Margin="10,10,10,6" Grid.Row="1" FontWeight="Bold" FontSize="14" Background="#FFB2D0F5" FontFamily="Segoe UI Black"/>
+            <Label x:Name="lblDNI" Content="DNI:" Margin="10,10,10,6" Grid.Row="2" FontWeight="Bold" FontSize="14"  Background="#FFB2D0F5" FontFamily="Segoe UI Black" />
+            <Label x:Name="lblCorreo" Content="Correo electrónico:" Margin="10,7,10,10" Grid.Row="3" FontWeight="Bold" FontSize="14"  Background="#FFB2D0F5" FontFamily="Segoe UI Black"/>
+            <Label x:Name="lblTelefono" Content="Teléfono:" Margin="10,10,10,7" Grid.Row="4" FontWeight="Bold" FontSize="14"  Background="#FFB2D0F5" FontFamily="Segoe UI Black"/>
+            <Label x:Name="lblHorasDip" Content="Horas disponibles:" Margin="10,10,10,7" Grid.Row="5" FontWeight="Bold" FontSize="14"  Background="#FFB2D0F5" FontFamily="Segoe UI Black"/>
+            <TextBox x:Name="txtNombre" Grid.Column="1" Margin="26,8,10,9" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="txtApellidos" Grid.Column="1" Margin="26,9,10,10" Grid.Row="1" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="txtDNI" Grid.Column="1" Margin="26,10,10,10" Grid.Row="2" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="txtCorreo" Grid.Column="1" Margin="26,10,10,11" Grid.Row="3" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="txtTelefono" Grid.Column="1" Margin="26,10,10,10" Grid.Row="4" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <TextBox x:Name="txtHorasDip" Grid.Column="1" Margin="26,10,10,10" Grid.Row="5" TextWrapping="Wrap" Background="#99FFFFFF" Grid.ColumnSpan="3"/>
+            <Button x:Name="btnAñadir" Content="Añadir" Grid.Column="2" Margin="5,25,5,25" Grid.Row="6" Click="btnAñadir_Click" Background="#FF6FADF7" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="16"/>
+            <Button x:Name="btnCancelar" Content="Cancelar" Grid.Column="3" Margin="5,25,5,25" Grid.Row="6" Click="btnCancelar_Click" Background="#FF6FADF7" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="16"/>
+
         </Grid>
 
     </Grid>

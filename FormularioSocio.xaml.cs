@@ -16,18 +16,17 @@ using System.Xml;
 namespace Eventos
 {
     /// <summary>
-    /// Lógica de interacción para FormularioVoluntario.xaml
+    /// Lógica de interacción para FormularioSocio.xaml
     /// </summary>
-    public partial class FormularioVoluntario : Window
+    public partial class FormularioSocio : Window
     {
-        private List<Voluntarios> listadoVoluntarios= new List<Voluntarios> ();
+        Socios padre;
+        private List<Socios> listadoSocios = new List<Socios>();
 
-        Voluntarios padre;
-        public FormularioVoluntario(Voluntarios padre)
+        public FormularioSocio(Socios padre)
         {
             InitializeComponent();
             this.padre = padre;
-            
         }
 
         private void btnCancelar_Click(object sender, RoutedEventArgs e)
@@ -37,84 +36,88 @@ namespace Eventos
 
         private void btnAñadir_Click(object sender, RoutedEventArgs e)
         {
-
+            
+     
             String Nombre = txtNombre.Text;
             String Apellidos = txtApellidos.Text;
             String DNI = txtDNI.Text;
             String DireccionCorreo = txtCorreo.Text;
             String Telefono = txtTelefono.Text;
-            String HorasDisponible = txtHorasDip.Text;
+            String DatosBancarios = txtDbancarios.Text;
+            String FormaPago = txtFormaPago.Text;
 
             XmlDocument doc = new XmlDocument();
             doc.PreserveWhitespace = true;
-            doc.Load("Voluntarios.xml");
+            doc.Load("Socios.xml");
 
-            XmlElement h = añadirVoluntario(Nombre, Apellidos, DNI, DireccionCorreo, Telefono, HorasDisponible, doc);
-            XmlNode j = GetVoluntario(txtDNI.Text, doc);
+            XmlElement h = añadirSocio(Nombre, Apellidos, DNI, DireccionCorreo, Telefono, DatosBancarios, FormaPago, doc);
+            XmlNode j = GetSocio(txtDNI.Text, doc);
             XmlElement root = doc.DocumentElement;
             if (j != null)
             {
                 root.RemoveChild(j);
             }
             
-           
             root.AppendChild(h);
-            doc.Save("Voluntarios.xml");
-            padre.listadoVoluntarios = padre.CargarContenidoXMLVoluntarios();
-            padre.DataContext = padre.listadoVoluntarios;
+            doc.Save("Socios.xml");
+            padre.listadoSocios = padre.CargarContenidoXMLSocios();
+            padre.DataContext = padre.listadoSocios;
 
-            MessageBox.Show("Datos añadidios correctamente.","Protectora Juni",MessageBoxButton.OK);
+            MessageBox.Show("Datos añadidios correctamente.", "Protectora Juni", MessageBoxButton.OK);
             this.Close();
-
+            
         }
-        public XmlNode GetVoluntario(string DNI, XmlDocument doc)
+
+        public XmlNode GetSocio(string DNI, XmlDocument doc)
         {
             XmlNamespaceManager nsmgr = new XmlNamespaceManager(doc.NameTable);
-            nsmgr.AddNamespace("Vo", "");
-            string xPathString = "//Vo:Voluntarios/Vo:Voluntario[@DNI='" + DNI + "']";
+            nsmgr.AddNamespace("So", "");
+            string xPathString = "//So:Socios/So:Socio[@DNI='" + DNI + "']";
             XmlNode xmlNode = doc.DocumentElement.SelectSingleNode(xPathString, nsmgr);
             return xmlNode;
         }
-        public XmlElement añadirVoluntario(string nombre, string apellido, string DNI,
-   string correo, string telefono, string disponibilidad, XmlDocument doc)
+        public XmlElement añadirSocio(string nombre, string apellido, string DNI,
+string correo, string telefono, string banco, string pago, XmlDocument doc)
         {
 
-            XmlElement voluntario = doc.CreateElement("Voluntario", "");
+            XmlElement socio = doc.CreateElement("Socio", "");
 
 
             XmlAttribute attribute = doc.CreateAttribute("Nombre");
             attribute.Value = nombre;
-            voluntario.Attributes.Append(attribute);
+            socio.Attributes.Append(attribute);
 
             attribute = doc.CreateAttribute("Apellidos");
             attribute.Value = apellido;
-            voluntario.Attributes.Append(attribute);
+            socio.Attributes.Append(attribute);
 
             attribute = doc.CreateAttribute("DNI");
             attribute.Value = DNI;
-            voluntario.Attributes.Append(attribute);
+            socio.Attributes.Append(attribute);
 
             attribute = doc.CreateAttribute("DireccionCorreo");
             attribute.Value = correo;
-            voluntario.Attributes.Append(attribute);
+            socio.Attributes.Append(attribute);
 
             attribute = doc.CreateAttribute("Telefono");
             attribute.Value = telefono;
-            voluntario.Attributes.Append(attribute);
+            socio.Attributes.Append(attribute);
 
-            attribute = doc.CreateAttribute("HorasDisponible");
-            attribute.Value = disponibilidad;
-            voluntario.Attributes.Append(attribute);
+            attribute = doc.CreateAttribute("DatosBancarios");
+            attribute.Value = banco;
+            socio.Attributes.Append(attribute);
+
+            attribute = doc.CreateAttribute("FormaPago");
+            attribute.Value = pago;
+            socio.Attributes.Append(attribute);
 
             attribute = doc.CreateAttribute("Caratula");
-            attribute.Value = "imagenesVoluntarios/10.png";
-            voluntario.Attributes.Append(attribute);
+            attribute.Value = "imagenesSocios/1.png";
+            socio.Attributes.Append(attribute);
 
-            voluntario.InnerText = "\n";
+            socio.InnerText = "\n";
 
-            return voluntario;
+            return socio;
         }
     }
-
-
-    }
+}

@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:Eventos"
       mc:Ignorable="d" 
       d:DesignHeight="335" d:DesignWidth="621"
-      Title="Animales" Background="#FFCFE4F0">
+      Title="Animales" Background="White">
 
     <Grid  >
         <Grid.RowDefinitions>
@@ -15,16 +15,22 @@
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="280*"/>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="145*"/>
             <ColumnDefinition Width="341*"/>
         </Grid.ColumnDefinitions>
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="55*"/>
+                <ColumnDefinition Width="28*"/>
+                <ColumnDefinition Width="27*"/>
                 <ColumnDefinition/>
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
-            <ListBox x:Name="lstListaAnimales" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,10" ItemsSource="{Binding}" Background="#FF95B6BD">
+            <ListBox x:Name="lstListaAnimales" Grid.Column="0" SelectedIndex="0" Margin="10,10,5,10" ItemsSource="{Binding}" Background="#FFCBDAEC"  Grid.ColumnSpan="2" SelectionChanged="lstListaAnimales_SelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal">
@@ -35,20 +41,52 @@
                 </ListBox.ItemTemplate>
 
             </ListBox>
+            <Button x:Name="btnAñadir"  Margin="25,5" Grid.Row="1" Click="btnAñadir_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/anadirPerro.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
+            <Button x:Name="btnEliminar"  Margin="20,5" Grid.Row="1" Grid.Column="1" Click="btnEliminar_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="imagenes/eliminarPerro.png" Stretch="Uniform"/>
+                </Button.Background>
+            </Button>
         </Grid>
-        <StackPanel x:Name="spDetallesAnimales" Orientation="Vertical" Margin="5,0,10,10" Grid.Column="1" Grid.Row="1">
-            <Label x:Name="lblNombre" FontWeight="Bold" FontSize="11" Height="35" Content="{Binding SelectedItem.Nombre, ElementName=lstListaAnimales}"/>
-            <Image x:Name="imgCaratula" Height="65" Margin="45,5,189,5" Stretch="Fill" Source="{Binding SelectedItem.Caratula, ElementName=lstListaAnimales}"/>
-            <Label FontWeight="Bold" Margin="0,0,189,0" Height="25" Content="Sexo:" FontSize="10"/>
-            <Label x:Name="lblSexo" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Sexo}"/>
-            <Label FontWeight="Bold" Margin="0,0,206,0" FontSize="10" Height="25">Raza:</Label>
-            <Label x:Name="lblRaza" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Raza}"/>
-            <Label FontWeight="Bold" FontSize="10" Height="25" Margin="0,0,189,0">Tamaño:</Label>
-            <Label x:Name="lblTamaño" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Tamano}"/>
-            <Label FontWeight="Bold" FontSize="10">Peso:</Label>
-            <Label x:Name="lblPeso" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Peso}"/>
-            <Label FontWeight="Bold" FontSize="10">Edad:</Label>
-            <Label x:Name="lblEdad" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Edad}"/>
+        <StackPanel x:Name="spDetallesAnimales" Orientation="Vertical" Margin="5,0,10,10" Grid.Column="2" Grid.Row="1">
+            <Grid Height="305">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="23*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="6*"/>
+                    <RowDefinition Height="9*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="85*"/>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="101*"/>
+                </Grid.ColumnDefinitions>
+                <Label x:Name="lblNombre" FontWeight="Bold" FontSize="11" Content="{Binding SelectedItem.Nombre, ElementName=lstListaAnimales}" Margin="5,0" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgCaratula" Margin="5,10,5,10" Source="{Binding SelectedItem.Caratula, ElementName=lstListaAnimales}" Grid.Row="1" RenderTransformOrigin="-0.052,0.479" Grid.Column="3"/>
+                <Label FontWeight="Bold" Content="Sexo:" FontSize="8" Grid.Row="2" RenderTransformOrigin="0.643,0.5" Background="#FFCBDAEC"  Margin="2,2,2,2" FontFamily="Segoe UI Black"/>
+                <Label x:Name="lblSexo" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Sexo}" Grid.Column="1" Margin="5,0" Grid.Row="2" RenderTransformOrigin="0.331,0.5" FontSize="8" FontWeight="Bold"/>
+                <Label FontWeight="Bold" FontSize="8" Grid.Row="3" Background="#FFCBDAEC"  Margin="2,2,2,2" FontFamily="Segoe UI Black">Raza:</Label>
+                <Label x:Name="lblRaza" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Raza}" Grid.Column="1" Grid.Row="3" FontSize="8" FontWeight="Bold"/>
+                <Label FontWeight="Bold" FontSize="8" Grid.Row="4" Grid.Column="2" Background="#FFCBDAEC" Margin="2,2,2,2" FontFamily="Segoe UI Black">Tamaño:</Label>
+                <Label x:Name="lblTamaño" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Tamano}" Grid.Column="3" Grid.Row="4" FontSize="8" FontWeight="Bold"/>
+                <Label FontWeight="Bold" FontSize="8" Grid.Row="2" Grid.Column="2" Background="#FFCBDAEC"  Margin="2,2,2,2" FontFamily="Segoe UI Black">Peso:</Label>
+                <Label x:Name="lblPeso" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Peso}" Grid.Column="3" Margin="0,0,6,0" Grid.Row="2" FontSize="8" FontWeight="Bold"/>
+                <Label FontWeight="Bold" FontSize="8" Grid.Column="2" Grid.Row="3" Background="#FFCBDAEC"  Margin="2,2,2,2" FontFamily="Segoe UI Black">Edad:</Label>
+                <Label x:Name="lblEdad" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Edad}" Grid.Column="3" Grid.Row="3" FontSize="8" FontWeight="Bold"/>
+                <Button x:Name="btn_editar" Content="Editar" Grid.Column="3" Margin="5,5,5,5" Grid.Row="5" FontFamily="Segoe UI Black" Background="#FF6FADF7" Click="btn_editar_Click"/>
+                <Label x:Name="label" Content="Apadrinado:" Grid.Row="4" FontSize="8" FontWeight="Bold" Background="#FFCBDAEC"  Margin="2,2,2,2" FontFamily="Segoe UI Black"/>
+                <Label x:Name="lblApadrinado" Content="{Binding ElementName=lstListaAnimales,Path=SelectedItem.Apadrinado}" Grid.Column="1" Grid.Row="4" FontSize="8" FontWeight="Bold" IsEnabled="False"/>
+                <Button x:Name="btn_padrino" Content="Padrino" Margin="5,5,5,5" Grid.Row="5" FontFamily="Segoe UI Black" Background="#FF6FADF7" Click="btn_padrino_Click" Grid.Column="1"/>
+
+            </Grid>
         </StackPanel>
     </Grid>
 </Page>

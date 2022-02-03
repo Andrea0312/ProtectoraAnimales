@@ -9,6 +9,7 @@ namespace Eventos
 {
     public partial class Animales : Page
     {
+         
         public Animales(string nombre, string sexo, string raza, string tamaño, string peso, string edad, string vacunado, string chip, string apadrinado )
         {
             Nombre = nombre;

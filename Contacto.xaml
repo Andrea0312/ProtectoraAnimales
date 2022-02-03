@@ -1,0 +1,54 @@
+﻿<Page x:Class="Eventos.Contacto"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Eventos"
+      mc:Ignorable="d" 
+      d:DesignHeight="335" d:DesignWidth="621"
+      Title="Contacto" Background="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="95*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Contacte con nosotros:" Margin="5,5,10,15" Grid.Row="1" FontFamily="Segoe UI Black" FontSize="16" Grid.ColumnSpan="4"/>
+        <Label Content="925 04 16 00" Grid.Column="8" Margin="10" Grid.Row="7" FontFamily="Segoe UI Black" FontSize="16" HorizontalContentAlignment="Center" Background="#FFCBDAEC" Grid.ColumnSpan="2"/>
+        <Label Content="protectoraJuni@gmail.com" Grid.Column="4" Margin="10" Grid.Row="7" FontFamily="Segoe UI Black" HorizontalContentAlignment="Center" Background="#FFCBDAEC" Grid.ColumnSpan="3"/>
+        <Label Content="Calle Toledo, nº14 " Grid.Column="1" Margin="10" Grid.Row="7" FontFamily="Segoe UI Black" HorizontalContentAlignment="Center" Background="#FFCBDAEC" Grid.ColumnSpan="2"/>
+        <Image Margin="2,2,2,2" Grid.Row="7" Source="imagenes/mapa.png"/>
+        <Image Grid.Column="3" Margin="2,2,2,2" Grid.Row="7" Source="imagenes/correo.png"/>
+        <Image Grid.Column="7" Margin="2,2,2,2" Grid.Row="7" Source="imagenes/llamada-telefonica.png"/>
+        <TextBox x:Name="txt_mensaje" Grid.ColumnSpan="7" Grid.Column="1" Margin="10" Grid.Row="4" Grid.RowSpan="2" TextWrapping="Wrap" Background="#FFCBDAEC" FontFamily="Segoe UI Black"/>
+        <Button Content="Enviar" Grid.Column="8" Margin="10" Grid.Row="5" IsCancel="True" FontFamily="Segoe UI Black" FontSize="14" RenderTransformOrigin="0.496,0" Grid.ColumnSpan="2" Click="Button_Click" Background="#FF6FADF7"/>
+        <Label Content="Nombre:" Grid.Column="1" Margin="2,2,2,2" Grid.Row="2" FontFamily="Segoe UI Black" FontSize="10" Background="#FFCBDAEC"/>
+        <Label Content="Apellidos:" Grid.Column="1" Margin="2,2,2,2" Grid.Row="3" RenderTransformOrigin="-0.658,0" FontFamily="Segoe UI Black" FontSize="10"  Background="#FFCBDAEC"/>
+        <Label Content="Teléfono:" Grid.Column="6" Margin="2,2,2,2" Grid.Row="2" FontFamily="Segoe UI Black" FontSize="10"  Background="#FFCBDAEC"/>
+        <Label Content="Correo electrónico:" Grid.Column="6" Margin="2,2,2,2" Grid.Row="3" FontSize="10" FontFamily="Segoe UI Black"  Background="#FFCBDAEC"/>
+        <TextBox x:Name="txt_nombre" Grid.ColumnSpan="3" Grid.Column="2" Margin="2,2,2,2" Grid.Row="2" TextWrapping="Wrap" FontSize="10" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="txt_apellido" Grid.ColumnSpan="3" Grid.Column="2" Margin="2,2,2,2" Grid.Row="3" TextWrapping="Wrap" FontSize="10" FontFamily="Segoe UI Black"/>
+        <TextBox x:Name="txt_telefono" Grid.ColumnSpan="2" Grid.Column="7" Margin="2,2,2,2" Grid.Row="2" TextWrapping="Wrap" FontFamily="Segoe UI Black" FontSize="10"/>
+        <TextBox x:Name="txt_correo" Grid.ColumnSpan="2" Grid.Column="7" Margin="2,2,2,2" Grid.Row="3" TextWrapping="Wrap" FontSize="10" FontFamily="Segoe UI Black"/>
+
+    </Grid>
+</Page>

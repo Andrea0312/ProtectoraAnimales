@@ -59,8 +59,17 @@
     <Compile Include="Animales.xaml.cs">
       <DependentUpon>Animales.xaml</DependentUpon>
     </Compile>
-    <Compile Include="AnimalsWindow.xaml.cs">
-      <DependentUpon>AnimalsWindow.xaml</DependentUpon>
+    <Compile Include="Contacto.xaml.cs">
+      <DependentUpon>Contacto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioAnimales.xaml.cs">
+      <DependentUpon>FormularioAnimales.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioPadrino.xaml.cs">
+      <DependentUpon>FormularioPadrino.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioSocio.xaml.cs">
+      <DependentUpon>FormularioSocio.xaml</DependentUpon>
     </Compile>
     <Compile Include="FormularioVoluntario.xaml.cs">
       <DependentUpon>FormularioVoluntario.xaml</DependentUpon>
@@ -83,7 +92,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="AnimalsWindow.xaml">
+    <Page Include="Contacto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormularioAnimales.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormularioPadrino.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormularioSocio.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -195,16 +216,92 @@
     <Resource Include="imagenesCarusel\5.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="imagenesVoluntarios\1.1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="imagenesVoluntarios\10.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="imagenesSocios\1.2.jpg" />
+    <Resource Include="imagenesSocios\1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="imagenesSocios\1.png" />
+    <Resource Include="Datos\pruebas.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\quitar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\anadirPerro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\eliminarPerro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\pata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ganar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\contacto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\ayuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\pet-shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\juni.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\juni1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\correo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\llamada-telefonica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\mapa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\logo-huellaspuertollano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\descargar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\Galeca.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenes\adopcion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesSocios\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesSocios\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesVoluntarios\2.png" />
+    <Resource Include="imagenesVoluntarios\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesAnimales\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesAnimales\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesAnimales\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesAnimales\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="imagenesAnimales\5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

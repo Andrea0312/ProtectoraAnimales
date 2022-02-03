@@ -21,7 +21,7 @@ namespace Eventos
     /// </summary>
     public partial class Socios : Page
     {
-        private List<Socios> listadoSocios;
+        public List<Socios> listadoSocios;
         public Socios()
         {
             InitializeComponent();
@@ -29,16 +29,24 @@ namespace Eventos
             DataContext = listadoSocios;
         }
     
-        private List<Socios> CargarContenidoXMLSocios()
+        public List<Socios> CargarContenidoXMLSocios()
         {
             List<Socios> listadoS = new List<Socios>();
             XmlDocument doc = new XmlDocument();
-            var fichero = Application.GetResourceStream(new Uri("Datos/Socios.xml", UriKind.Relative));
-            doc.Load(fichero.Stream);
+            try { doc.Load("Socios.xml"); }
+            catch (System.IO.FileNotFoundException)
+            {
+                doc.LoadXml("<?xml version=\"1.0\"?> \n" +
+                "<Socios> \n" +
+                " <Socio Nombre=\"Pedro\" Apellidos=\"Sanchéz\" DNI=\"08926552P\" DireccionCorreo=\"pedro@alu.uclm.es\" " +
+                "Telefono=\"642945555\" DatosBancarios=\"ES39 7890 6784 3485 2845\"  FormaPago=\"Tarjeta\" Caratula=\"imagenesSocios/1.png\"/>\n" +
+                "</Socios>");
+                doc.Save("Socios.xml");
+            }
 
             foreach (XmlNode node in doc.DocumentElement.ChildNodes)
             {
-                var nuevoSocio = new Socios(" ", " ", " "," ", " ", " ", " ");
+                var nuevoSocio = new Socios(" ", " ", " "," ", " ", " ","" );
                 nuevoSocio.Nombre = node.Attributes["Nombre"].Value;
                 nuevoSocio.Apellidos = node.Attributes["Apellidos"].Value;
                 nuevoSocio.DNI = node.Attributes["DNI"].Value;
@@ -53,14 +61,55 @@ namespace Eventos
             return listadoS;
         }
 
-
-        private void miAniadirItemLB_Click(object sender, RoutedEventArgs e)
+        private void btnAñadir_Click(object sender, RoutedEventArgs e)
         {
+            FormularioSocio formularioSocio = new FormularioSocio(this);
+            formularioSocio.ShowDialog();
+            lstListaSocios.Items.Refresh();
 
+        }
+
+        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.PreserveWhitespace = true;
+            doc.Load("Socios.xml");
+
+            XmlNode j = GetSocio(lblDNI.Content.ToString(), doc);
+            XmlElement root = doc.DocumentElement;
+            if (MessageBox.Show("¿Desea eliminar el elemento seleccionado?", "Protectora Juni", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                root.RemoveChild(j);
+                doc.Save("Socios.xml");
+
+                listadoSocios.RemoveAt(lstListaSocios.SelectedIndex);
+                lstListaSocios.Items.Refresh();
             }
+        }
 
-        private void miEliminarItemLB_Click(object sender, RoutedEventArgs e)
+        public XmlNode GetSocio(string DNI, XmlDocument doc)
         {
+            XmlNamespaceManager nsmgr = new XmlNamespaceManager(doc.NameTable);
+            nsmgr.AddNamespace("So", "");
+            string xPathString = "//So:Socios/So:Socio[@DNI='" + DNI + "']";
+            XmlNode xmlNode = doc.DocumentElement.SelectSingleNode(xPathString, nsmgr);
+            return xmlNode;
+        }
+
+        private void btn_editar_Click(object sender, RoutedEventArgs e)
+        {
+            FormularioSocio formulario = new FormularioSocio(this);
+
+            formulario.txtDNI.Text = lblDNI.Content.ToString();
+            formulario.txtDNI.IsEnabled = false;
+            formulario.txtNombre.Text = lblNombre.Content.ToString();
+            formulario.txtApellidos.Text = lblApellido.Content.ToString();
+            formulario.txtTelefono.Text = lblTelefono.Content.ToString();
+            formulario.txtCorreo.Text = lblCorreo.Content.ToString();
+            formulario.txtDbancarios.Text = lblDatosB.Content.ToString();
+            formulario.txtFormaPago.Text = lblPago.Content.ToString();
+
+            formulario.Show();
 
         }
     }

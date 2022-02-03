@@ -21,7 +21,7 @@ namespace Eventos
     /// </summary>
     public partial class Animales : Page
     {
-        private List<Animales> listadoAnimales;
+        public List<Animales> listadoAnimales;
         public Animales()
         {
             InitializeComponent();
@@ -29,12 +29,24 @@ namespace Eventos
             DataContext = listadoAnimales;
         }
 
-        private List<Animales> CargarContenidoXML()
+        public List<Animales> CargarContenidoXML()
         {
             List<Animales> listadoA = new List<Animales>();
             XmlDocument doc = new XmlDocument();
-            var fichero = Application.GetResourceStream(new Uri("Datos/Animales.xml", UriKind.Relative));
-            doc.Load(fichero.Stream);
+
+            try { doc.Load("Animales.xml"); }
+            catch (System.IO.FileNotFoundException)
+            {
+                doc.LoadXml("<?xml version=\"1.0\"?> \n" +
+                "<Animales> \n" +
+                "  <Animal Nombre= \"Lola\" Sexo=\"Hembra\" Raza=\"223\" Tamano=\"Perro mediano\"" +
+                " Peso=\"20kg\" Edad=\"10 años\" Vacunado=\"Si\" Chip=\"Si\" Apadrinado=\"Si\" Caratula=\"imagenes/avatar1.png\" /> \n" +
+                "  <Animal Nombre= \"Rex\" Sexo=\"Macho\" Raza=\"123\" Tamano=\"Perro grande\"" +
+                " Peso=\"40kg\" Edad=\"8 años\" Vacunado=\"Si\" Chip=\"Si\" Apadrinado=\"Si\" Caratula=\"imagenes/avatar1.png\" /> \n" +
+
+                "</Animales>");
+                doc.Save("Animales.xml");
+            }
 
             foreach (XmlNode node in doc.DocumentElement.ChildNodes)
             {
@@ -53,6 +65,84 @@ namespace Eventos
                 listadoA.Add(nuevoAnimal);
             }
             return listadoA;
+        }
+
+        private void btnAñadir_Click(object sender, RoutedEventArgs e)
+        {
+            FormularioAnimales formularioAnimales = new FormularioAnimales(this);
+            formularioAnimales.Show();
+
+        }
+
+        private void btnEliminar_Click(object sender, RoutedEventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.PreserveWhitespace = true;
+            doc.Load("Animales.xml");
+            
+            XmlNode j = GetAnimal(lblNombre.Content.ToString(), doc) ;
+            XmlElement root = doc.DocumentElement;
+            if (MessageBox.Show("¿Desea eliminar el elemento seleccionado?", "Protectora Juni", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
+            {
+                root.RemoveChild(j);
+                doc.Save("Animales.xml");
+
+                listadoAnimales.RemoveAt(lstListaAnimales.SelectedIndex);
+                lstListaAnimales.Items.Refresh();
+            }
+        }
+        public XmlNode GetAnimal(string nombre, XmlDocument doc)
+        {
+            XmlNamespaceManager nsmgr = new XmlNamespaceManager(doc.NameTable);
+            nsmgr.AddNamespace("An", "");
+            string xPathString = "//An:Animales/An:Animal[@Nombre='" + nombre + "']";
+            XmlNode xmlNode = doc.DocumentElement.SelectSingleNode(xPathString, nsmgr);
+            return xmlNode;
+        }
+
+        private void btn_padrino_Click(object sender, RoutedEventArgs e)
+        {
+            FormularioPadrino formulario1 = new FormularioPadrino();
+            formulario1.Show();
+        }
+
+        private void btn_editar_Click(object sender, RoutedEventArgs e)
+        {
+            FormularioAnimales formulario = new FormularioAnimales(this);
+            formulario.txtNombre.Text = lblNombre.Content.ToString();
+            formulario.txtNombre.IsEnabled = false;
+            formulario.txtSexo.Text = lblSexo.Content.ToString();
+            formulario.txtEdad.Text = lblEdad.Content.ToString();
+            formulario.txtPeso.Text = lblPeso.Content.ToString();
+            formulario.txtRaza.Text = lblRaza.Content.ToString();
+            formulario.txtTamaño.Text = lblTamaño.Content.ToString();
+            if (lblApadrinado.Content.ToString().Equals("Si"))
+            {
+                formulario.rbSi2.IsChecked = true;
+            }
+            else
+            {
+                formulario.rbNo2.IsChecked = true;
+            }
+
+            formulario.Show();
+
+        }
+
+        private void lstListaAnimales_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(lstListaAnimales.SelectedItem != null)
+            {
+                if (lblApadrinado.Content.ToString().Equals("Si"))
+                {
+                    btn_padrino.IsEnabled = true;
+                }
+                else
+                {
+                    btn_padrino.IsEnabled = false;
+                }
+            }
+            
         }
     }
 }

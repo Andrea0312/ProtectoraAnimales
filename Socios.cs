@@ -18,6 +18,7 @@ namespace Eventos
             DireccionCorreo = direcccionCorreo;
             Telefono = telefono;
             FormaPago = formaPago;
+            
 
         }
 
@@ -28,7 +29,9 @@ namespace Eventos
         public string Telefono { set; get; }
         public string DatosBancarios { set; get; }
         public string DireccionCorreo { set; get; }
+
         public string FormaPago { set; get; }
+       
 
     }
 }

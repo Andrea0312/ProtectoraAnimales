@@ -19,11 +19,12 @@ namespace Eventos
     /// </summary>
     public partial class VentanaInicioSesion : Window
     {
-        MainWindow padre;
-        public VentanaInicioSesion(MainWindow padre)
+        
+        public VentanaInicioSesion()
         {
             InitializeComponent();
-            this.padre = padre;
+            
+
         }
         private String usuario = "Juan";
         private String password = "123abc";
@@ -48,27 +49,14 @@ namespace Eventos
             {
                 // marcamos borde en rojo
                 componenteEntrada.BorderBrush = Brushes.Red;
-                componenteEntrada.Background = Brushes.Red;
+                componenteEntrada.Background = Brushes.Salmon;
                 // imagen al lado de la entrada de usuario --> cross
                 imagenFeedBack.Source = imagCross;
                 valido = false;
             }
             return valido;
         }
-        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Return)
-            {
-                lblEstado.Content = "Se pulsó el enter ";
-                if (!String.IsNullOrEmpty(txtUsuario.Text) && ComprobarEntrada(txtUsuario.Text, usuario, txtUsuario, imgCheckUsuario))
-                {
-                    // habilitar entrada de contraseña y pasarle el foco
-                    passContrasena.IsEnabled = true;
-                    passContrasena.Focus();
-                   
-                }
-            }
-        }
+        
 
         private BitmapImage imagOriginal = new BitmapImage(new Uri("/imagenes/avatar1.png", UriKind.Relative));
         private BitmapImage imagRollOver = new BitmapImage(new Uri("/imagenes/avatar2.png", UriKind.Relative));
@@ -78,26 +66,19 @@ namespace Eventos
         private void imgAvatar_MouseEnter(object sender, MouseEventArgs e)
         {
             imgAvatar.Source = imagRollOver;
-            lblEstado.Content = "Entrando en el avatar y cambiando imagen";
+
         }
 
         private void imgAvatar_MouseLeave(object sender, MouseEventArgs e)
         {
             imgAvatar.Source = imagOriginal;
-            lblEstado.Content = "Saliendo del avatar y restaurando la imagen";
         }
 
-        private void diseñoPrincipal_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            Point p = e.GetPosition(this);
-            lblEstado.Content = "Coordenadas del click: (" + p.X + ", " + p.Y + ")";
-        }
 
         private void passContrasena_KeyUp(object sender, KeyEventArgs e)
         {
             lblEstado.Content = "Has pulsado la tecla <<" + e.Key.ToString() + ">>";
-            if (ComprobarEntrada(passContrasena.Password, password, passContrasena, imgCheckContrasena))
-                btnLogin.Focus();
+
 
         }
 
@@ -105,17 +86,55 @@ namespace Eventos
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
 
-            if (ComprobarEntrada(txtUsuario.Text, usuario, txtUsuario, imgCheckUsuario) &&
-                   ComprobarEntrada(passContrasena.Password, password, passContrasena, imgCheckContrasena))
+            if (ComprobarEntrada(txtUsuario.Text, usuario, txtUsuario, imgCheckUsuario) && 
+                ComprobarEntrada(passContrasena.Password, password, passContrasena, imgCheckContrasena))
             {
-               
+                MainWindow principal = new MainWindow(this);
+                principal.Show();
+                principal.spDinamico.Content = new Inicio();
                 this.Close();
-
-                //Application.Current.Shutdown();
 
             }
         }
 
+        private void Usuario_getFocus(object sender, RoutedEventArgs e)
+        {
+            txtUsuario.BorderBrush = Brushes.Transparent;
+            txtUsuario.Background = Brushes.White;
+        }
+
+        private void contraseña_GetFocus(object sender, RoutedEventArgs e)
+        {
+            passContrasena.BorderBrush = Brushes.Transparent;
+            passContrasena.Background = Brushes.White;
+        }
+
+     
+
+        private void usuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                passContrasena.Focus();
+            }
+        }
+
+        private void contraseña_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                if (ComprobarEntrada(txtUsuario.Text, usuario, txtUsuario, imgCheckUsuario) &&
+                ComprobarEntrada(passContrasena.Password, password, passContrasena, imgCheckContrasena))
+                {
+                    MainWindow principal = new MainWindow(this);
+                    principal.Show();
+                    principal.spDinamico.Content = new Inicio();
+                    this.Close();
+                }
+
+            }
+
+        }
     }
 }
  
